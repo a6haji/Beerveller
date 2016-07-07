@@ -14,6 +14,7 @@
 		9210760C1D0DF5AD00EFBEE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9210760B1D0DF5AD00EFBEE8 /* Assets.xcassets */; };
 		9210760F1D0DF5AD00EFBEE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9210760D1D0DF5AD00EFBEE8 /* LaunchScreen.storyboard */; };
 		9210761A1D0DF5AD00EFBEE8 /* BeervellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921076191D0DF5AD00EFBEE8 /* BeervellerTests.swift */; };
+		924A9D0E1D2DF8D9005F1841 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A9D0D1D2DF8D9005F1841 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		921076151D0DF5AD00EFBEE8 /* BeervellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeervellerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		921076191D0DF5AD00EFBEE8 /* BeervellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeervellerTests.swift; sourceTree = "<group>"; };
 		9210761B1D0DF5AD00EFBEE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924A9D0D1D2DF8D9005F1841 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				921076021D0DF5AD00EFBEE8 /* AppDelegate.swift */,
 				921076041D0DF5AD00EFBEE8 /* FirstViewController.swift */,
 				921076061D0DF5AD00EFBEE8 /* SecondViewController.swift */,
+				924A9D0D1D2DF8D9005F1841 /* ThirdViewController.swift */,
 				921076081D0DF5AD00EFBEE8 /* Main.storyboard */,
 				9210760B1D0DF5AD00EFBEE8 /* Assets.xcassets */,
 				9210760D1D0DF5AD00EFBEE8 /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 			files = (
 				921076071D0DF5AD00EFBEE8 /* SecondViewController.swift in Sources */,
 				921076031D0DF5AD00EFBEE8 /* AppDelegate.swift in Sources */,
+				924A9D0E1D2DF8D9005F1841 /* ThirdViewController.swift in Sources */,
 				921076051D0DF5AD00EFBEE8 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +398,7 @@
 				921076201D0DF5AD00EFBEE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		921076211D0DF5AD00EFBEE8 /* Build configuration list for PBXNativeTarget "BeervellerTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +407,7 @@
 				921076231D0DF5AD00EFBEE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
