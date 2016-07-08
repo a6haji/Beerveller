@@ -35,6 +35,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUr-St-58Q">
                                         <rect key="frame" x="0.0" y="75" width="151" height="30"/>
                                         <state key="normal" title="Set Default Label Text"/>
+                                        <connections>
+                                            <action selector="setDefaultTextLabel:" destination="b1d-6L-VfP" eventType="touchUpInside" id="VQS-zx-Ywm"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -51,6 +54,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="rvj-u8-fnQ"/>
+                    <connections>
+                        <outlet property="beerNameLabel" destination="MTj-Bm-8cP" id="exY-GX-kqD"/>
+                        <outlet property="nameTextField" destination="xLA-AO-FHJ" id="INi-PC-bTH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OQb-N7-r9A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
