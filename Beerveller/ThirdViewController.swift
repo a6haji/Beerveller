@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class ThirdViewController: UIViewController, UITextFieldDelegate {
 
     
     //MARK: Properties
@@ -19,10 +19,24 @@ class ThirdViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // Handle the text field's user input through delegate callbacks
+        nameTextField.delegate = self
     }
 
-    // MARK: - Actions
+    // MARK: UITextFieldDelegate
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        //Hide the Keyboard
+        textField.resignFirstResponder()
+        
+        return true
+    }
+    
+    func textFieldDidEndEditing(textField: UITextField) {
+        beerNameLabel.text = textField.text
+    }
+    
+    // MARK: Actions
     @IBAction func setDefaultTextLabel(sender: UIButton) {
         
         beerNameLabel.text = "Default Text"
