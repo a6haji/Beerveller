@@ -25,19 +25,19 @@ class ThirdViewController: UIViewController, UITextFieldDelegate {
 
     // MARK: UITextFieldDelegate
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         //Hide the Keyboard
         textField.resignFirstResponder()
         
         return true
     }
     
-    func textFieldDidEndEditing(textField: UITextField) {
+    func textFieldDidEndEditing(_ textField: UITextField) {
         beerNameLabel.text = textField.text
     }
     
     // MARK: Actions
-    @IBAction func setDefaultTextLabel(sender: UIButton) {
+    @IBAction func setDefaultTextLabel(_ sender: UIButton) {
         
         beerNameLabel.text = "Default Text"
     }
