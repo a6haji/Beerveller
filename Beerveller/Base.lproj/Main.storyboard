@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="V42-La-NJq">
-                                <rect key="frame" x="16" y="80" width="343" height="436.5"/>
+                                <rect key="frame" x="16" y="60" width="343" height="492.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beer Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTj-Bm-8cP">
                                         <rect key="frame" x="0.0" y="0.0" width="85" height="20.5"/>
@@ -54,9 +54,11 @@
                                             <outletCollection property="gestureRecognizers" destination="3kR-2B-3j0" appends="YES" id="ZcP-TR-cmn"/>
                                         </connections>
                                     </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2Qv-7e-IC8" customClass="RatingControl" customModule="Beerveller" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="448.5" width="252" height="44"/>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="8cg-ck-5Rf" firstAttribute="top" secondItem="yUr-St-58Q" secondAttribute="bottom" constant="8" id="3zd-yG-reG"/>
                                     <constraint firstAttribute="trailing" secondItem="xLA-AO-FHJ" secondAttribute="trailing" id="STD-7f-8vv"/>
                                     <constraint firstItem="xLA-AO-FHJ" firstAttribute="leading" secondItem="V42-La-NJq" secondAttribute="leading" id="ocY-Ii-DCO"/>
                                 </constraints>
@@ -66,7 +68,7 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="V42-La-NJq" secondAttribute="trailing" id="KmS-bn-W2P"/>
                             <constraint firstItem="V42-La-NJq" firstAttribute="leading" secondItem="1Ue-WC-yQt" secondAttribute="leadingMargin" id="jeR-D1-eIn"/>
-                            <constraint firstItem="V42-La-NJq" firstAttribute="top" secondItem="Duf-cz-Ije" secondAttribute="bottom" constant="60" id="yYd-e9-kNe"/>
+                            <constraint firstItem="V42-La-NJq" firstAttribute="top" secondItem="Duf-cz-Ije" secondAttribute="bottom" constant="40" id="yYd-e9-kNe"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="rvj-u8-fnQ"/>
@@ -144,8 +146,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="192" y="329" width="216" height="17"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
+                                <rect key="frame" x="80" y="362" width="215" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>

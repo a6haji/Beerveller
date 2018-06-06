@@ -15,6 +15,7 @@
 		9210760F1D0DF5AD00EFBEE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9210760D1D0DF5AD00EFBEE8 /* LaunchScreen.storyboard */; };
 		9210761A1D0DF5AD00EFBEE8 /* BeervellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921076191D0DF5AD00EFBEE8 /* BeervellerTests.swift */; };
 		924A9D0E1D2DF8D9005F1841 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A9D0D1D2DF8D9005F1841 /* ThirdViewController.swift */; };
+		9288E5DD20C7170B004D4C1C /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288E5DC20C7170B004D4C1C /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		921076191D0DF5AD00EFBEE8 /* BeervellerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeervellerTests.swift; sourceTree = "<group>"; };
 		9210761B1D0DF5AD00EFBEE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		924A9D0D1D2DF8D9005F1841 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		9288E5DC20C7170B004D4C1C /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				9210760B1D0DF5AD00EFBEE8 /* Assets.xcassets */,
 				9210760D1D0DF5AD00EFBEE8 /* LaunchScreen.storyboard */,
 				921076101D0DF5AD00EFBEE8 /* Info.plist */,
+				9288E5DC20C7170B004D4C1C /* RatingControl.swift */,
 			);
 			path = Beerveller;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				921076071D0DF5AD00EFBEE8 /* SecondViewController.swift in Sources */,
 				921076031D0DF5AD00EFBEE8 /* AppDelegate.swift in Sources */,
 				924A9D0E1D2DF8D9005F1841 /* ThirdViewController.swift in Sources */,
+				9288E5DD20C7170B004D4C1C /* RatingControl.swift in Sources */,
 				921076051D0DF5AD00EFBEE8 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
